@@ -1,7 +1,7 @@
 parameter_defaults:
   CloudName: 192.168.25.2
   CloudDomain: <DOMAIN>
-  ControlPlaneStaticRoutes:[]
+  ControlPlaneStaticRoutes: []
   Debug: true
   DeploymentUser: stack
   KernelIpNonLocalBind: 1

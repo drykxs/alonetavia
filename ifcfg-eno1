@@ -1,0 +1,7 @@
+TYPE="Ethernet"
+PROXY_METHOD="none"
+BROWSER_ONLY="no"
+BOOTPROTO="dhcp"
+DEFROUTE="yes"
+DEVICE="eno1"
+ONBOOT="yes"

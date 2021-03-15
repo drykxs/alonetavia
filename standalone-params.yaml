@@ -1,14 +1,14 @@
 parameter_defaults:
-  CloudName: 192.168.12.2
+  CloudName: 192.168.25.2
   CloudDomain: pveigalab.com
   ControlPlaneStaticRoutes: 
-    - ip_netmask: 192.168.12.2/24
-    - next_hop: 192.168.11.1  
+    - ip_netmask: 192.168.25.0/24
+    - next_hop: <DEFAULTGW>  
   Debug: true
   DeploymentUser: stack
   DnsServers:
-    - 181.213.132.2 
-    - 181.213.132.3
+    - 1.1.1.1 
+    - 8.8.8.8
   DockerInsecureRegistryAddress:
     - 192.168.12.1:8787
   NeutronPublicInterface: eno2

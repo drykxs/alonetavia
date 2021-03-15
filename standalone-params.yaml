@@ -1,10 +1,7 @@
 parameter_defaults:
   CloudName: 192.168.25.2
   CloudDomain: <DOMAIN>
-  ControlPlaneStaticRoutes:
-    - ip_netmask: 0.0.0.0/0
-      next_hop: <GW>
-      default: true
+  ControlPlaneStaticRoutes:[]
   Debug: true
   DeploymentUser: stack
   KernelIpNonLocalBind: 1

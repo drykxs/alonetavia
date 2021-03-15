@@ -1,0 +1,20 @@
+parameter_defaults:
+  CloudName: 192.168.12.2
+  CloudDomain: pveigalab.com
+  ControlPlaneStaticRoutes: 
+    - ip_netmask: 192.168.12.0/24
+    - next_hop: 192.168.11.1  
+  Debug: true
+  DeploymentUser: stack
+  DnsServers:
+    - 181.213.132.2 
+    - 181.213.132.3
+  DockerInsecureRegistryAddress:
+    - 192.168.12.1:8787
+  NeutronPublicInterface: eno2
+  NeutronDnsDomain: localdomain
+  NeutronBridgeMappings: datacentre:br-ctlplane
+  NeutronPhysicalBridge: br-ctlplane
+  StandaloneEnableRoutedNetworks: false
+  StandaloneHomeDir: $HOME
+  StandaloneLocalMtu: 1500

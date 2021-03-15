@@ -3,7 +3,7 @@ parameter_defaults:
   CloudDomain: <DOMAIN>
   ControlPlaneStaticRoutes:
     - ip_netmask: 0.0.0.0/0
-      next_hope: <GW>
+      next_hop: <GW>
       default: true
   Debug: true
   DeploymentUser: stack

@@ -4,5 +4,7 @@ sudo chmod 0440 /etc/sudoers.d/stack
 sudo hostnamectl set-hostname standalone.example.com
 sudo hostnamectl set-hostname standalone.example.com --transient
 sudo yum update -y
+sudo dnf install octavia-amphora-image-x86_64.noarch -y
+sudo dnf install -y python3-tripleoclient
 ssh-copy-id -i ~/.ssh/<your ssh key> stack@<standalone>
 sudo reboot

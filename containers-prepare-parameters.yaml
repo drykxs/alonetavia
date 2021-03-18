@@ -12,3 +12,4 @@ parameter_defaults:
     registry.redhat.io:
       <RHN-LOGIN>: "<PASS>"
   ContainerImageRegistryLogin: true
+  OctaviaAmphoraSshKeyFile: "/home/stack/.ssh/id_rsa.pub"

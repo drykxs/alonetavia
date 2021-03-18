@@ -7,6 +7,5 @@ sudo openstack tripleo deploy \
 	-e /home/stack/templates/containers-prepare-parameters.yaml \
 	-e /home/stack/templates/standalone-params.yaml \
 	-e /usr/share/openstack-tripleo-heat-templates/environments/services/octavia.yaml \
-	-e /home/stack/templates/octavia-envir.yaml \
 	--output-dir /home/stack \
 	--standalone

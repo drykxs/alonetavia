@@ -1,3 +1,0 @@
-parameter_defaults:
-    OctaviaLoadBalancerTopology: "SINGLE"
-    OctaviaAmphoraSshKeyFile: "/home/stack/.ssh/id_rsa.pub"

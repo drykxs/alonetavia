@@ -1,3 +1,5 @@
+source ~/stackrc
+mkdir ~/images
 cd ~/images
 openstack flavor create --ram 512 --disk 1 --vcpu 1 --public tiny
 wget https://download.cirros-cloud.net/0.4.0/cirros-0.4.0-x86_64-disk.img

@@ -1,4 +1,4 @@
 1. Click "Load Balancer"
 2. Create the LB with private as subnet
 3. As HTTP for traffic and health-monitor
-3. While "Pending Create" associate the fixed public ip (192.168.24.5), not the public pool
+3. While "Pending Create" associate the public ip (192.168.24.5), not the public pool

@@ -1,6 +1,0 @@
-1. Click "Load Balancer"
-2. Create the LB with private as subnet
-3. As HTTP for traffic and health-monitor
-4. Do not add 
-4. Wait for the "Online" *AND* "Active" Status
-5. 

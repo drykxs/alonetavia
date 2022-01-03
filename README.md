@@ -1,4 +1,4 @@
-# Alonetavia
+# Alonetavia_2.0 - For OCP 4.9 
 An OSP16.2 Standalone deployed with Octavia (LBaaS) on RHEL8.4
 
 #### [Octavia cheat-sheet](https://github.com/drykxs/alonetavia/wiki)

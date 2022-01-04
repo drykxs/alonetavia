@@ -8,3 +8,5 @@ sudo hostnamectl set-hostname standalone.pveigalab.com;
 sudo hostnamectl set-hostname standalone.pveigalab.com --transient;
 sudo dnf install -y python3-tripleoclient;
 sudo dnf install octavia-amphora-image-x86_64.noarch -y
+===
+ssh-copy-id -i ~/.ssh/id_rsa.pub stack@...

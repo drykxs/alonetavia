@@ -10,6 +10,5 @@ sudo hostnamectl set-hostname standalone.example.com
 sudo hostnamectl set-hostname standalone.example.com --transient
 sudo dnf install -y python3-tripleoclient
 sudo dnf install octavia-amphora-image-x86_64.noarch -y
-ssh-kegen
+ssh-keygen
 ssh-copy-id -i ~/.ssh/<your ssh key> stack@<standalone>
-sudo reboot

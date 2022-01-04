@@ -1,6 +1,6 @@
 parameter_defaults:
   CloudName: 192.168.25.2
-  CloudDomain: alonetavia.<DOMAIN>
+  CloudDomain: standalone.<DOMAIN>
   ControlPlaneStaticRoutes: []
   Debug: true
   DeploymentUser: stack
@@ -10,12 +10,17 @@ parameter_defaults:
     - 2.2.2.2
   DockerInsecureRegistryAddress:
     - 192.168.25.2:8787
-  NeutronPublicInterface: eno2
-  NeutronDnsDomain: <DOMAIN>
+  NeutronPublicInterface: eth2
+  NeutronDnsDomain: pveigalab.com
   NeutronBridgeMappings: datacentre:br-ctlplane
   NeutronPhysicalBridge: br-ctlplane
   StandaloneEnableRoutedNetworks: false
-  StandaloneHomeDir: $HOME
+  StandaloneHomeDir: /home/stack
   StandaloneLocalMtu: 1500
+  ControlPlaneStaticRoutes:
+  - ip_netmask: 0.0.0.0/0
+    next_hop: $GW
+    default: true
   StandaloneExtraConfig:
     NovaComputeLibvirtType: qemu
+  NeutronFirewallDriver: openvswitch

@@ -1,1 +1,5 @@
-https://access.redhat.com/documentation/en-us/red_hat_openstack_platform/16.2/html-single/standalone_deployment_guide/index#installing-the-all-in-one-openstack-environment
+Add stack user
+echo "stack ALL=(root) NOPASSWD:ALL" | tee -a /etc/sudoers.d/stack
+chmod 0440 /etc/sudoers.d/stack
+ssh
+subs-reg...

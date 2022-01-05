@@ -24,3 +24,6 @@ parameter_defaults:
   StandaloneExtraConfig:
     NovaComputeLibvirtType: qemu
   NeutronFirewallDriver: openvswitch
+  NeutronServicePlugins: trunk
+  OctaviaGenerateCerts: true
+  OctaviaAmphoraSshKeyFile: /home/stack/.ssh/id_rsa.pub

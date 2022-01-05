@@ -1,5 +1,5 @@
 sudo openstack tripleo deploy \
-	--templates /usr/share/openstack-tripleo-heat-templates \
+	--templates \
 	--local-ip=192.168.25.2/24 \
 	-e /usr/share/openstack-tripleo-heat-templates/environments/disable-telemetry.yaml \
 	-e /usr/share/openstack-tripleo-heat-templates/environments/services/octavia.yaml \
@@ -8,4 +8,4 @@ sudo openstack tripleo deploy \
 	-e /home/stack/templates/overcloud_images.yaml \
 	-e /home/stack/templates/standalone-params.yaml \
 	--output-dir /home/stack/installog \
-	--standalone \
+	--standalone 

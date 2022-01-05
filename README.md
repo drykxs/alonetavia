@@ -1,7 +1,7 @@
 # Alonetavia_2.0 - For OCP 4.9 
 
 #### Pre-reqs:
-To enable Kuryr SDN, your environment must meet the following requirements:
+To enable Kuryr SDN, your environment must meet the following requirements (standalone-params.yaml):
 - Have Overcloud with Octavia.
 - Use Neutron Trunk ports extension.
 - Use openvswitch firewall driver if ML2/OVS Neutron driver is used instead of ovs-hybrid.
